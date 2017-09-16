@@ -1,0 +1,26 @@
+Since the OverTheWire exersizes are hosted on linux I will be using Linux to ssh from.
+I will also not be giving the answers on here but rather the steps for reteiving the flags.
+Please go to the following url so we can start http://overthewire.org/wargames/bandit/bandit0.html
+
+Using your terminal we will ssh bu using the following command:
+ ssh <user>@bandit.labs.overthewire.org -p 2220
+You may need to use sudo in front of the command so be aware of that.
+
+
+Bandit 0:
+this is the first challenge of Bandit!
+
+We are given the password for logging in which is "bandit0", do not use quotes unless specified.
+
+so using "bandit0@bandit.labs.overthewire.org -p 2220", we get to the first login screen.
+
+Step 1:
+We want to look to see if there are any files or directories in our current directory.
+We want to use the "ls" command, which is the command for listing the contents of a directory
+Step 2:
+After listing the conents we see a file named "readme"
+Using the command "cat", we can view the contents of this file.
+cat is a powerful command which can view the contents of a file, create files, concatenate files and redirect output.
+Viewing the "readme" file reveals our first flag, which is the password for the next exercise
+
+Bandit 1:
