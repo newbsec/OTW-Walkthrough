@@ -24,3 +24,7 @@ cat is a powerful command which can view the contents of a file, create files, c
 Viewing the "readme" file reveals our first flag, which is the password for the next exercise
 
 Bandit 1:
+Now that we have found the first flag from bandit0 we can ssh into badit1 using it.
+
+Step 1:
+We are still going to use the "cat" command, but this time you will notice we 
